@@ -6,7 +6,7 @@ int Max[10][10], need[10][10], alloc[10][10], avail[10], completed[10], safeSequ
 int p, r, i, j, process, count;
 count = 0;
 printf("Enter the no of processes : ");
-scanf("%d", &p);
+scanf("%d", &p);  
 for(i = 0; i< p; i++)  
 completed[i] = 0;  
 printf("\n\nEnter the no of resources : ");
