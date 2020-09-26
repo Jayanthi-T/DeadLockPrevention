@@ -8,7 +8,7 @@ count = 0;
 printf("Enter the no of processes : ");
 scanf("%d", &p);
 for(i = 0; i< p; i++)  
-completed[i] = 0;
+completed[i] = 0;  
 printf("\n\nEnter the no of resources : ");
 scanf("%d", &r);
 printf("\n\nEnter the Max Matrix for each process : ");
