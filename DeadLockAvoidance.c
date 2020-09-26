@@ -7,7 +7,7 @@ int p, r, i, j, process, count;
 count = 0;
 printf("Enter the no of processes : ");
 scanf("%d", &p);
-for(i = 0; i< p; i++)
+for(i = 0; i< p; i++)  
 completed[i] = 0;
 printf("\n\nEnter the no of resources : ");
 scanf("%d", &r);
